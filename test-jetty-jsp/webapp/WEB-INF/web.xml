@@ -1,0 +1,15 @@
+<!-- webapp/WEB-INF/web.xml -->
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+
+  <servlet>
+    <servlet-name>jsp</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>jsp</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+</web-app>
